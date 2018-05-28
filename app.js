@@ -1,11 +1,25 @@
-function menu(a, b, c, d){
-    var op1 = 'no nos queda de eso, por favor elige otro platillo';
-    var op2 = 'lo sentimos esa opcion no esta disponible, intentalo de nuevo';
-    var op3 = 'disculpa no nos quedan';
-    var op4 = 'espera un momento mientras preparamos tu pedido';
+let menu = {
+     op1:'no nos queda de eso, por favor elige otro platillo',
+     op2:'lo sentimos esa opcion no esta disponible, intentalo de nuevo',
+     op3:'disculpa no nos quedan',
+     op4:'de esos si nos quedan, por favor pulsa el boton "pedir" ',
+};
+
+function opcion1() {
+    alert(menu.op1);  
 }
-
-
+function opcion2() {
+    alert(menu.op2);
+}
+function opcion3() {
+    alert(menu.op3);
+}
+function opcion4() {
+    alert(menu.op4);
+}
+function submit() {
+    alert('espera un momento mientras preparamos tu pedido');
+}
 
 /* intento 2
 const userOrder =  prompt('¿Qué deseas ordenar?');

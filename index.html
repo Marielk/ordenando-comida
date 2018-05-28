@@ -9,11 +9,13 @@
 <body>
         <h3>1. ¿Qué deseas ordenar?</h3>
 
-        <input type = "radio" name = "plato1" value = "a" id = "p1a">a. Ceviche<br>
-        <input type = "radio" name = "plato2" value = "b" id = "p2b">b. Tacos al pastor<br>
-        <input type = "radio" name = "plato3" value = "c" id = "p3c">c. Empanada Chilena<br>
-        <input type = "radio" name = "plato4" value = "d" id = "p4d">d. hamburguesa<br>
-        <input type="submit" value="Pedir">
+        <button id = 'op1' onclick = 'opcion1()'>Ceviche</button><br>
+        <button id = 'op2' onclick = 'opcion2()' >Tacos al pastor</button><br>
+        <button id = 'op3' onclick = 'opcion3()'>Empanada Chilena</button><br>
+        <button id = 'op4' onclick = 'opcion4()'>Hamburguesa</button><br>
+
+        <button id = 'pedir' onclick= 'submit()' > Pedir </button>
+        
     <script src="app.js"></script>
 </body>
 </html>
